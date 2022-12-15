@@ -1,4 +1,5 @@
-public class Ilan {
+public class Ilan
+{
 
     private int ilanID;
     private int kategoriID;
@@ -6,6 +7,7 @@ public class Ilan {
     public String baslik;
     public String aciklama;
     public int fiyat;
+
 
     public int getIlanID(){ return ilanID; }
     public int getKategoriID() {return kategoriID; }

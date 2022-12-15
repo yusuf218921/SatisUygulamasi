@@ -1,7 +1,7 @@
 public class AccountRegister extends Main{
     boolean check = true;
 
-    public void Register() throws InterruptedException {
+    public void Register()  {
         while(check)
         {
             String username, password, firstName, lastName, phone, email, adress;
@@ -15,33 +15,33 @@ public class AccountRegister extends Main{
                 System.out.println("** Bu Kullanıcı Adı Daha Önce Alınmış! **\n");
                 System.out.println("Kayıt İşlemine Devam Etmek İstiyor Musunuz? (Evet/Hayır)-> ");
                 String devam = scanner.next();
-                if (devam.toLowerCase().equals("evet"))
+                if (devam.equalsIgnoreCase("evet"))
                 {
                     System.out.println("***Lütfen Kullanıcı Adınızı Tekrar Oluşturunuz...***");
-                    Thread.sleep(1000);
+
 
                 }
-                else if (devam.toLowerCase().equals("hayır"))
+                else if (devam.equalsIgnoreCase("hayır"))
                 {
                     System.out.println("Kayıt İşlemi İptal Ediliyor...");
-                    Thread.sleep(1000);
+
                     System.out.println("Ana Menüye Dönülüyor...\n\n");
-                    Thread.sleep(1000);
+
                     check = false;
                 }
             }
             else
             {
-                registerId++;
+
                 accounts.add(new Account());
                 accounts.get(registerId).SetUsername(username);
                 accounts.get(registerId).SetPassword(password);
                 accounts.get(registerId).SetId(registerId);
                 check = false;
                 System.out.println("**** Hesap Oluşturma İşlemi Başarılı...****\n\n");
-                Thread.sleep(1000);
+                users.add(new User());
                 System.out.println("Ana Menüye Dönebilmek İçin Bilgilerinizi Doldurunuz...\n");
-                Thread.sleep(1000);
+
                 System.out.println("İsminizi giriniz: ");
                 lastName = scanner.next();
                 System.out.println("Soyisminizi giriniz: ");
@@ -58,6 +58,7 @@ public class AccountRegister extends Main{
                 users.get(registerId).setPhone(phone);
                 users.get(registerId).setEmail(email);
                 users.get(registerId).setAdress(adress);
+                registerId++;
 
             }
 

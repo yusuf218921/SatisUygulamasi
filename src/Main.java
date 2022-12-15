@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     static Scanner scanner = new Scanner(System.in);
     static ArrayList<Account> accounts = new ArrayList<>();
+    static ArrayList<Ilan> ilanlar = new ArrayList<>();
     static ArrayList<User> users = new ArrayList<>();
     static int secim = -1;
     static int loginId;

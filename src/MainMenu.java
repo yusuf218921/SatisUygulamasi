@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 
 public class MainMenu extends Main {
+
     public void Menu() throws InterruptedException {
         secim = -1;
 
