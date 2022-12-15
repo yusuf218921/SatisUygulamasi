@@ -13,9 +13,16 @@ public class VasitaMenu extends IlanMenu
             System.out.println("Seçiminizi yapınız: ");
             secim=scanner.nextInt();
 
+            switch (secim)
+            {
+                case 1:
+
+                    break;
+            }
+
 
             }
         }
-    
+
 
 }

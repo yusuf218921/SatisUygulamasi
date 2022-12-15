@@ -7,8 +7,10 @@ public class Main {
     static ArrayList<Account> accounts = new ArrayList<>();
     static ArrayList<Ilan> ilanlar = new ArrayList<>();
     static ArrayList<User> users = new ArrayList<>();
+    static ArrayList<Otomobil> otomobiller = new ArrayList<>();
     static int secim = -1;
     static int loginId;
+    static int ilanKayitId=0;
     static int registerId = 0;
 
     static Menu menu;
