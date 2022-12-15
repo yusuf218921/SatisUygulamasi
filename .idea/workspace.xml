@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="UserMenu yazılıyor.&#10;CheckPoint Push">
-      <change beforePath="$PROJECT_DIR$/src/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserMenu.java" afterDir="false" />
+    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="İlan oluşturma sistemi yazılacak.&#10;CheckPoint Push">
+      <change afterPath="$PROJECT_DIR$/src/Ilan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AccountRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccountRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671114075930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="İlan oluşturma sistemi yazılacak.&#10;CheckPoint Push">
+      <created>1671116039680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671116039680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +85,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Account oluşturuldu.&#10;Ana Menü tasarımına başlandı." />
     <MESSAGE value="UserMenu yazılıyor.&#10;CheckPoint Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserMenu yazılıyor.&#10;CheckPoint Push" />
+    <MESSAGE value="İlan oluşturma sistemi yazılacak.&#10;CheckPoint Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="İlan oluşturma sistemi yazılacak.&#10;CheckPoint Push" />
   </component>
 </project>

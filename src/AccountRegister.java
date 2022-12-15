@@ -4,7 +4,7 @@ public class AccountRegister extends Main{
     public void Register() throws InterruptedException {
         while(check)
         {
-            String username, password, firstName, lastName, phone, email;
+            String username, password, firstName, lastName, phone, email, adress;
             System.out.println("Kullanıcı Adı: ");
             username = scanner.next();
             System.out.println("Şifre: ");
@@ -50,11 +50,14 @@ public class AccountRegister extends Main{
                 phone = scanner.next();
                 System.out.println("E-Posta Adresinizi giriniz: ");
                 email = scanner.next();
+                System.out.println("Adresinizi giriniz: ");
+                adress = scanner.next();
 
                 users.get(registerId).setFirstName(firstName);
                 users.get(registerId).setLastName(lastName);
                 users.get(registerId).setPhone(phone);
                 users.get(registerId).setEmail(email);
+                users.get(registerId).setAdress(adress);
 
             }
 
