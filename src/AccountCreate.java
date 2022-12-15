@@ -4,6 +4,8 @@ public class AccountCreate {
     private String username;
     private String password;
 
+    AccountCreate(){};
+
     AccountCreate(String username, String password)
     {
         this.username = username;

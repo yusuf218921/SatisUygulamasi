@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.awt.image.AreaAveragingScaleFilter;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -8,8 +9,12 @@ public class Main {
     static int secim = -1;
     static int loginId;
     static int registerId = 0;
-    public static void main(String[] args) {
 
+    static Menu menu;
+
+    public static void main(String[] args) throws InterruptedException {
+        MainMenu deneme = new MainMenu();
+        deneme.Menu();
 
     }
 }
