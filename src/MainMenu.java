@@ -2,9 +2,10 @@ import java.awt.*;
 import java.util.Scanner;
 
 
-public class MainMenu extends Main {
+public class MainMenu extends Main implements Menu{
 
-    public void Menu() throws InterruptedException {
+    @Override
+    public void menu()  {
         secim = -1;
 
         while(secim != 0)
@@ -15,7 +16,19 @@ public class MainMenu extends Main {
             System.out.println("[3] Çıkış Yap");
             System.out.println("\nLütfen seçiminizi yapınız: ");
             secim = scanner.nextInt();
+  //          boolean check = true;
+           /* while (check)
+            {
+                try {
 
+                }
+                catch (Exception e)
+                {
+                    System.out.println("Programda bir hata oluştu...");
+                    System.out.println("Ana Menüye Yönlendiriliyorsunuz...");
+                }
+            }
+*/
             switch (secim)
             {
                 case 1:
@@ -43,7 +56,7 @@ public class MainMenu extends Main {
                     System.out.println("********** KAYIT OL **********\n");
                     new AccountRegister().Register();
                     System.out.println("Ana Menüye Yönlendiriliyorsunuz...");
-                    Thread.sleep(1000);
+
 
                     break;
 

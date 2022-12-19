@@ -1,6 +1,7 @@
-public class IlanMenu extends MainMenu{
+public class IlanMenu extends MainMenu implements Menu
+{
     @Override
-    public void Menu()
+    public void menu()
     {
      int check = -1;
 
@@ -17,8 +18,10 @@ public class IlanMenu extends MainMenu{
 
          switch (check)
          {
-             case 1:
 
+             case 1:
+                    new VasitaMenu().menu();
+                    check = 0;
                  break;
 
          }

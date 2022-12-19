@@ -14,12 +14,13 @@ public class AccountLogin extends Main{
             System.out.println("Şifre: ");
             password = scanner.next();
 
-            if (new AccountCreate().loginCheck(accounts))
+            if (new AccountCreate(username,password).loginCheck(accounts))
             {
                 check = false;
                 loginId = new AccountCreate(username,password).loginId(accounts);
 
                 System.out.println("Giriş Başarılı. Hoşgeldiniz!");
+                UserLogin=true;
                 secim = 0;
             }
             else

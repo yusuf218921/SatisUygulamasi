@@ -22,29 +22,30 @@ public class IlanCreate extends Main{
             }
             else
             {
-                otomobiller.add(new Otomobil());
 
-             System.out.println("İlan Açıklaması: ");
+
+             System.out.print("İlan Açıklaması: ");
              aciklama = scanner.next();
-             System.out.println("Otomobil Markası: ");
+             System.out.print("Otomobil Markası: ");
              marka = scanner.next();
-             System.out.println("Otomobil Modeli: ");
+             System.out.print("Otomobil Modeli: ");
              model = scanner.next();
-             System.out.println("Otomobil Üretim Yılı: ");
+             System.out.print("Otomobil Üretim Yılı: ");
              uretimYili = scanner.nextInt();
-             System.out.println("Otomobil Vites Tipi: ");
+             System.out.print("Otomobil Vites Tipi: ");
              vitesTipi = scanner.next();
-             System.out.println("Otomobil Rengini Giriniz: ");
+             System.out.print("Otomobil Rengini Giriniz: ");
              renk = scanner.next();
-             System.out.println("Otomobil Kasa Tipi: ");
+             System.out.print("Otomobil Kasa Tipi: ");
              kasa = scanner.next();
-             System.out.println("Otomobil Yakıt Tipi: ");
+             System.out.print("Otomobil Yakıt Tipi: ");
              yakit = scanner.next();
-             System.out.println("Otomobil Çekiş Türünü");
+             System.out.print("Otomobil Çekiş Türünü");
              cekis = scanner.next();
-             System.out.println("Satış Fiyatınızı Giriniz: ");
+             System.out.print("Satış Fiyatınızı Giriniz: ");
              fiyat = scanner.nextInt();
 
+             otomobiller.add(new Otomobil());
              otomobiller.get(ilanKayitId).setIlanID(ilanKayitId);
              otomobiller.get(ilanKayitId).setBaslik(baslik);
              otomobiller.get(ilanKayitId).setAciklama(aciklama);
@@ -57,7 +58,9 @@ public class IlanCreate extends Main{
              otomobiller.get(ilanKayitId).setYakit(yakit);
              otomobiller.get(ilanKayitId).setCekis(cekis);
              otomobiller.get(ilanKayitId).setFiyat(fiyat);
+             otomobiller.get(ilanKayitId).setUserID(registerId);
              ilanKayitId++;
+             check = false;
 
 
             }

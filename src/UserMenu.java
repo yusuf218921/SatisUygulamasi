@@ -1,6 +1,8 @@
-public class UserMenu extends Main
+public class UserMenu extends Main implements Menu
 {
-    public void Menu()
+
+    @Override
+    public void menu()
     {
         secim = -1;
         while(secim != 0)
@@ -17,7 +19,35 @@ public class UserMenu extends Main
             System.out.println("[7] Hesaptan Çıkış Yap");
             System.out.println("[8] Uygulamadan Çıkış Yap\n");
             System.out.println("\nSeçiminizi yapınız: ");
-            secim = scanner.nextInt();
+            boolean check = true;
+            while (check)
+            {
+                try {
+                    secim = scanner.nextInt();
+                    check = false;
+                } catch (Exception e) {
+                    scanner.nextLine();
+                    System.out.println("Programda bir hata oluştu...");
+                    System.out.println("Lütfen Seçiminizi Tekrar Yapınız...");
+
+                }
+            }
+
+            switch (secim){
+
+                case 1:
+                    System.out.println("***************************************");
+                    new IlanList().List();
+                    System.out.println("\n\n***************************************");
+                    break;
+                case 2:
+                    new IlanMenu().menu();
+                    break;
+                case 4:
+                    new IlanList().ListUser();
+                    break;
+
+            }
 
 
 
