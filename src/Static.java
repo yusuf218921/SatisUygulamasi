@@ -9,6 +9,8 @@ public class Static {
     static ArrayList<User> users = new ArrayList<>();
 
     static ArrayList<Otomobil> otomobiller = new ArrayList<>();
+    static ArrayList<Motosiklet> motosikletler = new ArrayList<>();
+
     static int secim = -1;
     static int loginId;
     static int ilanKayitId=0;

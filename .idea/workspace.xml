@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="Otomobiller ArrayList oluşturuldu&#10;Otomobillerin oluşturulma kısmı tamamlandı.">
-      <change afterPath="$PROJECT_DIR$/src/IlanList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Motosiklet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Static.java" afterDir="false" />
+    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="Sorunlar Halledildi&#10;Yeni classlar eklendi.&#10;İlan Gösterme Kısmı Düzenlenecek...">
+      <change afterPath="$PROJECT_DIR$/src/IlanListMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccountLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccountLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ilan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ilan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IlanCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IlanMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IlanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VasitaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VasitaMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671139421524</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Sorunlar Halledildi&#10;Yeni classlar eklendi.&#10;İlan Gösterme Kısmı Düzenlenecek...">
+      <created>1671479716455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671479716455</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +134,8 @@
     <MESSAGE value="İlan classı oluşturuldu&#10;CheckPoint Push" />
     <MESSAGE value="Ilan Sistemine giriş yapıldı.&#10;Vasıta Menü Oluşturuldu.&#10;Vasıta Class oluşturuldu&#10;Emlak ve motosiklet oluşturulacak&#10;CheckPoint Push" />
     <MESSAGE value="Otomobiller ArrayList oluşturuldu&#10;Otomobillerin oluşturulma kısmı tamamlandı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Otomobiller ArrayList oluşturuldu&#10;Otomobillerin oluşturulma kısmı tamamlandı." />
+    <MESSAGE value="Sorunlar Halledildi&#10;Yeni classlar eklendi.&#10;İlan Gösterme Kısmı Düzenlenecek..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorunlar Halledildi&#10;Yeni classlar eklendi.&#10;İlan Gösterme Kısmı Düzenlenecek..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -37,7 +37,7 @@ public class UserMenu extends Main implements Menu
 
                 case 1:
                     System.out.println("***************************************");
-                    new IlanList().List();
+                    new IlanListMenu().menu();
                     System.out.println("\n\n***************************************");
                     break;
                 case 2:

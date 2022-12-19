@@ -22,4 +22,23 @@ public class IlanList extends Static{
 
         }
     }
+
+    public void ListOtomobil(){
+        for(Otomobil otomobil: otomobiller)
+        {
+            System.out.println("\n\n\nİlan ID: "+otomobil.getIlanID());
+            System.out.println("İlan Başlık: "+otomobil.getBaslik());
+            System.out.println("İlan Açıklaması: " + otomobil.getAciklama());
+            System.out.println("İlan Fiyat: " + otomobil.getFiyat());
+        }
+    }
+    public void ListMotosiklet(){
+        for(Otomobil otomobil: otomobiller)
+        {
+            System.out.println("\n\n\nİlan ID: "+otomobil.getIlanID());
+            System.out.println("İlan Başlık: "+otomobil.getBaslik());
+            System.out.println("İlan Açıklaması: " + otomobil.getAciklama());
+            System.out.println("İlan Fiyat: " + otomobil.getFiyat());
+        }
+    }
 }
