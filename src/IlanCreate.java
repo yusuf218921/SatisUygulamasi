@@ -125,6 +125,110 @@ public class IlanCreate extends Main{
             check = false;
         }
     }
+
+    public void daireCreate(){
+        String baslik=null , aciklama,odaSayisi,isitma,adres;
+        int fiyat,mkare,binaYas,katSayisi,aidat;
+        boolean kredi;
+        boolean check = true;
+        while (check) {
+            System.out.println("Daire İlanı Oluşturmaktasınız.\n\n");
+            System.out.println("İlan Başlığı: ");
+            baslik = scanner.next();
+
+            if (new IlanQuery(baslik).createQuery(ilanlar)) {
+                System.out.println("Tekrar denemek ister misiniz? (evet/hayır)");
+                String secim = scanner.next().toLowerCase();
+                if (secim.equals("hayır")) {
+                    check = false;
+                }
+            }
+
+        System.out.println("İlanınızın Açıklamasını Giriniz: ");
+        aciklama = scanner.next();
+        System.out.println("Dairenizin Oda Sayısını Giriniz: ");
+        odaSayisi = scanner.next();
+        System.out.println("Dairenizin Isıtma Şekli: ");
+        isitma = scanner.next();
+        System.out.println("Dairenizin Adresi: ");
+        adres = scanner.next();
+        System.out.println("Dairenizin Metrekaresini Giriniz: ");
+        mkare = scanner.nextInt();
+        System.out.println("Dairenizin Bulunduğu Bina Yaşı: ");
+        binaYas = scanner.nextInt();
+        System.out.println("Dairenizin Kat Sayısı: ");
+        katSayisi = scanner.nextInt();
+        System.out.println("Dairenizin Bulunduğu Binanın Aidatı : ");
+        aidat = scanner.nextInt();
+        System.out.println("Dairenizin Krediye Uygunluk Durumu: ");
+        kredi = scanner.nextBoolean();
+        System.out.println("Dairenizin Fiyatı: ");
+        fiyat = scanner.nextInt();
+
+        daireler.add(new Daire());
+        daireler.get(ilanKayitId).setIlanID(ilanKayitId);
+        daireler.get(ilanKayitId).setBaslik(baslik);
+        daireler.get(ilanKayitId).setAciklama(aciklama);
+        daireler.get(ilanKayitId).setOdaSayisi(odaSayisi);
+        daireler.get(ilanKayitId).setIsitma(isitma);
+        daireler.get(ilanKayitId).setAdres(adres);
+        daireler.get(ilanKayitId).setMkare(mkare);
+        daireler.get(ilanKayitId).setBinaYas(binaYas);
+        daireler.get(ilanKayitId).setKatSayisi(katSayisi);
+        daireler.get(ilanKayitId).setAidat(aidat);
+        daireler.get(ilanKayitId).setKredi(kredi);
+        daireler.get(ilanKayitId).setFiyat(fiyat);
+        ilanKayitId++;
+        check = false;
+
+     }
+    }
+    public void arsaCreate(){
+        String baslik=null , aciklama, imarDurum;
+        int fiyat,mkare,mkareFiyat;
+        boolean kredi;
+        boolean check = true;
+        while (check) {
+
+            System.out.println("Daire İlanı Oluşturmaktasınız.\n\n");
+            System.out.println("İlan Başlığı: ");
+            baslik = scanner.next();
+
+            if (new IlanQuery(baslik).createQuery(ilanlar)) {
+                System.out.println("Tekrar denemek ister misiniz? (evet/hayır)");
+                String secim = scanner.next().toLowerCase();
+                if (secim.equals("hayır")) {
+                    check = false;
+                }
+            }
+
+            System.out.println("İlanınızın Açıklamasını Giriniz: ");
+            aciklama = scanner.next();
+            System.out.println("Arsanızın İmar Durumunu Giriniz: ");
+            imarDurum = scanner.next();
+            System.out.println("Dairenizin Metrekaresini Giriniz: ");
+            mkare = scanner.nextInt();
+            System.out.println("Dairenizin Krediye Uygunluk Durumu: ");
+            kredi = scanner.nextBoolean();
+            System.out.println("Dairenizin Fiyatı: ");
+            fiyat = scanner.nextInt();
+            mkareFiyat = fiyat/mkare;
+
+            arsalar.add(new Arsa());
+            arsalar.get(ilanKayitId).setIlanID(ilanKayitId);
+            arsalar.get(ilanKayitId).setBaslik(baslik);
+            arsalar.get(ilanKayitId).setAciklama(aciklama);
+            arsalar.get(ilanKayitId).setImarDurum(imarDurum);
+            arsalar.get(ilanKayitId).setMkare(mkare);
+            arsalar.get(ilanKayitId).setKredi(kredi);
+            arsalar.get(ilanKayitId).setFiyat(fiyat);
+            arsalar.get(ilanKayitId).setmKareFiyat(mkare,fiyat);
+            ilanKayitId++;
+            check = false;
+
+        }
+
+    }
 }
 
 

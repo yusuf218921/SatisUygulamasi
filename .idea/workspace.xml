@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="Sorunlar Halledildi&#10;Yeni classlar eklendi.&#10;İlan Gösterme Kısmı Düzenlenecek...">
-      <change afterPath="$PROJECT_DIR$/src/IlanListMenu.java" afterDir="false" />
+    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="İlan Gösterme Kısmı Otomobil için hallledildi. &#10;Kod Tekrarları var en son düzeltilecek.">
+      <change afterPath="$PROJECT_DIR$/src/Arsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Daire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Emlak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmlakMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IlanCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanCreate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IlanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VasitaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VasitaMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/sinan/IdeaProjects/SatisUygulamasi"
+    "last_opened_file_path": "C:/Users/sinan/IdeaProjects/BasicMarketingConsoleApp",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -113,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671479716455</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="İlan Gösterme Kısmı Otomobil için hallledildi. &#10;Kod Tekrarları var en son düzeltilecek.">
+      <created>1671484128427</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671484128427</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +146,8 @@
     <MESSAGE value="Ilan Sistemine giriş yapıldı.&#10;Vasıta Menü Oluşturuldu.&#10;Vasıta Class oluşturuldu&#10;Emlak ve motosiklet oluşturulacak&#10;CheckPoint Push" />
     <MESSAGE value="Otomobiller ArrayList oluşturuldu&#10;Otomobillerin oluşturulma kısmı tamamlandı." />
     <MESSAGE value="Sorunlar Halledildi&#10;Yeni classlar eklendi.&#10;İlan Gösterme Kısmı Düzenlenecek..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorunlar Halledildi&#10;Yeni classlar eklendi.&#10;İlan Gösterme Kısmı Düzenlenecek..." />
+    <MESSAGE value="İlan Gösterme Kısmı Otomobil için hallledildi. &#10;Kod Tekrarları var en son düzeltilecek." />
+    <option name="LAST_COMMIT_MESSAGE" value="İlan Gösterme Kısmı Otomobil için hallledildi. &#10;Kod Tekrarları var en son düzeltilecek." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

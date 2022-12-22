@@ -32,6 +32,11 @@ public class VasitaMenu extends IlanMenu implements Menu
                         System.out.println("\n\n****** İLANINIZ YAYIMLANDI ****** ");
                         secim = 3;
                         break;
+                    case 2:
+                        new IlanCreate().MotosikletCreate();
+                        System.out.println("\n\n****** İLANINIZ YAYIMLANDI ****** ");
+                        secim=3;
+                        break;
 
                 }
             }
