@@ -1,6 +1,6 @@
 public class Main extends Static {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         while (loop)
         {
             menu = new MainMenu();

@@ -12,16 +12,21 @@ public class IlanMenu extends MainMenu implements Menu
          System.out.println("[1] Vasıta");
          System.out.println("[2] Emlak");
          System.out.println("[3] Hesap Menüsüne Dön");
-         System.out.println("[4] Ana Menüye Dön");
          System.out.println("\nSeçiminizi yapınız: ");
          check = scanner.nextInt();
 
          switch (check)
          {
-
              case 1:
                     new VasitaMenu().menu();
                     check = 0;
+                 break;
+             case 2:
+                 new EmlakMenu().menu();
+                 check =0;
+                 break;
+             case 3:
+                 check =0;
                  break;
 
          }

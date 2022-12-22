@@ -17,8 +17,7 @@ public class UserMenu extends Main implements Menu
             System.out.println("[5] Kullanıcı Bilgilerini Görüntüle");
             System.out.println("[6] Kullanıcı Bilgilerini Güncelle");
             System.out.println("[7] Hesaptan Çıkış Yap");
-            System.out.println("[8] Uygulamadan Çıkış Yap\n");
-            System.out.println("\nSeçiminizi yapınız: ");
+            System.out.print("\nSeçiminizi yapınız: ");
             boolean check = true;
             while (check)
             {
@@ -43,8 +42,20 @@ public class UserMenu extends Main implements Menu
                 case 2:
                     new IlanMenu().menu();
                     break;
+                case 3:
+                    new IlanDelete().deleteIlan();
+                    break;
                 case 4:
                     new IlanList().ListUser();
+                    break;
+                case 5:
+                    new UserInformation().userInformation();
+                    break;
+                case 6:
+                    new UserUpdateMenu().menu();
+                    break;
+                case 7:
+                    secim=0;
                     break;
 
             }

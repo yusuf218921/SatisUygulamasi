@@ -1,5 +1,4 @@
-import java.awt.*;
-import java.util.Scanner;
+
 
 
 public class MainMenu extends Main implements Menu{
@@ -14,13 +13,14 @@ public class MainMenu extends Main implements Menu{
             System.out.println("[1] Giriş Yap");
             System.out.println("[2] Kayıt Ol");
             System.out.println("[3] Çıkış Yap");
-            System.out.println("\nLütfen seçiminizi yapınız: ");
-            secim = scanner.nextInt();
-  //          boolean check = true;
-           /* while (check)
+            System.out.print("\nLütfen seçiminizi yapınız: ");
+            //secim = scanner.nextInt();
+            boolean check = true;
+            while (check)
             {
                 try {
-
+                    secim = scanner.nextInt();
+                    check = false;
                 }
                 catch (Exception e)
                 {
@@ -28,7 +28,7 @@ public class MainMenu extends Main implements Menu{
                     System.out.println("Ana Menüye Yönlendiriliyorsunuz...");
                 }
             }
-*/
+
             switch (secim)
             {
                 case 1:
@@ -39,16 +39,14 @@ public class MainMenu extends Main implements Menu{
                     else
                     {
                         System.out.println("Giriş için yönlendiriliyorsunuz..");
-                        try {
+                        try
+                        {
                             Thread.sleep(1000);
                         }
                         catch (InterruptedException e){
                             throw new RuntimeException(e);
                         }
                         new AccountLogin().Login();
-
-
-                        System.out.println("");
                     }
 
                     break;

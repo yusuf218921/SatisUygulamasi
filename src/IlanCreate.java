@@ -3,6 +3,7 @@ public class IlanCreate extends Main{
 
     public void otomobilCreate()
     {
+
         boolean check = true;
         while (check)
         {
@@ -46,22 +47,23 @@ public class IlanCreate extends Main{
              fiyat = scanner.nextInt();
 
              otomobiller.add(new Otomobil());
-             otomobiller.get(ilanKayitId).setIlanID(ilanKayitId);
-             otomobiller.get(ilanKayitId).setBaslik(baslik);
-             otomobiller.get(ilanKayitId).setAciklama(aciklama);
-             otomobiller.get(ilanKayitId).setMarka(marka);
-             otomobiller.get(ilanKayitId).setModel(model);
-             otomobiller.get(ilanKayitId).setUretimYili(uretimYili);
-             otomobiller.get(ilanKayitId).setVitesTipi(vitesTipi);
-             otomobiller.get(ilanKayitId).setRenk(renk);
-             otomobiller.get(ilanKayitId).setKasa(kasa);
-             otomobiller.get(ilanKayitId).setYakit(yakit);
-             otomobiller.get(ilanKayitId).setCekis(cekis);
-             otomobiller.get(ilanKayitId).setFiyat(fiyat);
-             otomobiller.get(ilanKayitId).setUserID(registerId);
-             ilanKayitId++;
+             otomobiller.get(otomobilSay).setIlanID(ilanKayitId);
+             otomobiller.get(otomobilSay).setBaslik(baslik);
+             otomobiller.get(otomobilSay).setAciklama(aciklama);
+             otomobiller.get(otomobilSay).setMarka(marka);
+             otomobiller.get(otomobilSay).setModel(model);
+             otomobiller.get(otomobilSay).setUretimYili(uretimYili);
+             otomobiller.get(otomobilSay).setVitesTipi(vitesTipi);
+             otomobiller.get(otomobilSay).setRenk(renk);
+             otomobiller.get(otomobilSay).setKasa(kasa);
+             otomobiller.get(otomobilSay).setYakit(yakit);
+             otomobiller.get(otomobilSay).setCekis(cekis);
+             otomobiller.get(otomobilSay).setFiyat(fiyat);
+             otomobiller.get(otomobilSay).setUserID(registerId);
+             otomobilSay++;
              check = false;
-
+             ilanlar.addAll(otomobiller);
+             ilanKayitId++;
 
         }
     }
@@ -123,10 +125,12 @@ public class IlanCreate extends Main{
             motosikletler.get(ilanKayitId).setUserID(registerId);
             ilanKayitId++;
             check = false;
+            ilanlar.addAll(motosikletler);
         }
     }
 
     public void daireCreate(){
+
         String baslik=null , aciklama,odaSayisi,isitma,adres;
         int fiyat,mkare,binaYas,katSayisi,aidat;
         boolean kredi;
@@ -180,7 +184,7 @@ public class IlanCreate extends Main{
         daireler.get(ilanKayitId).setFiyat(fiyat);
         ilanKayitId++;
         check = false;
-
+        ilanlar.addAll(daireler);
      }
     }
     public void arsaCreate(){
@@ -225,10 +229,11 @@ public class IlanCreate extends Main{
             arsalar.get(ilanKayitId).setmKareFiyat(mkare,fiyat);
             ilanKayitId++;
             check = false;
-
+            ilanlar.addAll(arsalar);
         }
 
     }
+
 }
 
 

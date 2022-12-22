@@ -12,7 +12,7 @@ public class IlanList extends Static{
     public void ListUser(){
         for (Ilan ilan:ilanlar)
         {
-            if (ilanlar.get(ilanKayitId).getUserID()==users.get(registerId).getId())
+            if (ilan.getUserID()==registerId)
             {
                 System.out.println("\n\n\nİlan ID: "+ilan.getIlanID());
                 System.out.println("İlan Başlık: "+ilan.getBaslik());

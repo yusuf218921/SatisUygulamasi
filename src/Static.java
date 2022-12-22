@@ -20,7 +20,10 @@ public class Static {
     static boolean UserLogin = false;
     static Menu menu;
 
-    static String [] MainKategori = {"Emlak", "Vasıta"};
-    static String [] VasitaKategori = {"Otomobil", "Motosiklet"};
-    static String [] EmlakKategori = {"Daire","Arsa"};
+    int daireSay = 0;
+    int otomobilSay=0;
+    int motosikletSay = 0;
+    int arsaSay=0;
+
+
 }
