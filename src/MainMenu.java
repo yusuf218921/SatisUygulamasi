@@ -5,7 +5,7 @@ public class MainMenu extends Main implements Menu{
 
     @Override
     public void menu()  {
-        secim = -1;
+
 
         while(secim != 0)
         {
@@ -14,7 +14,7 @@ public class MainMenu extends Main implements Menu{
             System.out.println("[2] Kayıt Ol");
             System.out.println("[3] Çıkış Yap");
             System.out.print("\nLütfen seçiminizi yapınız: ");
-            //secim = scanner.nextInt();
+
             boolean check = true;
             while (check)
             {

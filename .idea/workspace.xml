@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="İlan Gösterme Fonksiyonu Tüm Kategorilere Eklendi. İlan Ekleme Kısmı Tüm kategorilere eklendi.&#10;Eksik Olan Classlar oluşturuldu.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccountList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IlanDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserUpdateMenu.java" afterDir="false" />
+    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="otomobilSay vs eklendi hatalar var düzeltilecek">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IlanCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanCreate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IlanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IlanMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IlanListMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanListMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VasitaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VasitaMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/sinan/IdeaProjects/BasicMarketingConsoleApp",
+    "last_opened_file_path": "C:/Users/sinan/IdeaProjects/SatisUygulamasi",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -137,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671722830731</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="otomobilSay vs eklendi hatalar var düzeltilecek">
+      <created>1671728832849</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671728832849</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,7 +160,8 @@
     <MESSAGE value="Sorunlar Halledildi&#10;Yeni classlar eklendi.&#10;İlan Gösterme Kısmı Düzenlenecek..." />
     <MESSAGE value="İlan Gösterme Kısmı Otomobil için hallledildi. &#10;Kod Tekrarları var en son düzeltilecek." />
     <MESSAGE value="İlan Gösterme Fonksiyonu Tüm Kategorilere Eklendi. İlan Ekleme Kısmı Tüm kategorilere eklendi.&#10;Eksik Olan Classlar oluşturuldu." />
-    <option name="LAST_COMMIT_MESSAGE" value="İlan Gösterme Fonksiyonu Tüm Kategorilere Eklendi. İlan Ekleme Kısmı Tüm kategorilere eklendi.&#10;Eksik Olan Classlar oluşturuldu." />
+    <MESSAGE value="otomobilSay vs eklendi hatalar var düzeltilecek" />
+    <option name="LAST_COMMIT_MESSAGE" value="otomobilSay vs eklendi hatalar var düzeltilecek" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

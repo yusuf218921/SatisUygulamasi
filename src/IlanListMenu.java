@@ -19,7 +19,10 @@ public class IlanListMenu extends MainMenu implements Menu{
                 switch (secim)
                 {
                     case 1:
-                            new IlanList().ListOtomobil();
+                            new IlanList().List();
+                        break;
+                    case 2:
+                        new IlanList().ListMotosiklet();
                         break;
                 }
                 break;

@@ -37,6 +37,9 @@ public class VasitaMenu extends IlanMenu implements Menu
                         System.out.println("\n\n****** İLANINIZ YAYIMLANDI ****** ");
                         secim=3;
                         break;
+                    default:
+                        secim=3;
+                        break;
 
                 }
             }

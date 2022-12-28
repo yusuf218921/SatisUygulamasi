@@ -60,9 +60,10 @@ public class IlanCreate extends Main{
              otomobiller.get(otomobilSay).setCekis(cekis);
              otomobiller.get(otomobilSay).setFiyat(fiyat);
              otomobiller.get(otomobilSay).setUserID(registerId);
-             otomobilSay++;
+
              check = false;
-             ilanlar.addAll(otomobiller);
+             ilanlar.add(otomobiller.get(otomobilSay));
+             otomobilSay++;
              ilanKayitId++;
 
         }
@@ -111,18 +112,19 @@ public class IlanCreate extends Main{
             fiyat = scanner.nextInt();
 
             motosikletler.add(new Motosiklet());
-            motosikletler.get(ilanKayitId).setIlanID(ilanKayitId);
-            motosikletler.get(ilanKayitId).setBaslik(baslik);
-            motosikletler.get(ilanKayitId).setAciklama(aciklama);
-            motosikletler.get(ilanKayitId).setMarka(marka);
-            motosikletler.get(ilanKayitId).setModel(model);
-            motosikletler.get(ilanKayitId).setUretimYili(uretimYili);
-            motosikletler.get(ilanKayitId).setVitesTipi(vitesTipi);
-            motosikletler.get(ilanKayitId).setRenk(renk);
-            motosikletler.get(ilanKayitId).setMotorHacim(motorHacim);
-            motosikletler.get(ilanKayitId).setMotorTip(motorTip);
-            motosikletler.get(ilanKayitId).setFiyat(fiyat);
-            motosikletler.get(ilanKayitId).setUserID(registerId);
+            motosikletler.get(motosikletSay).setIlanID(ilanKayitId);
+            motosikletler.get(motosikletSay).setBaslik(baslik);
+            motosikletler.get(motosikletSay).setAciklama(aciklama);
+            motosikletler.get(motosikletSay).setMarka(marka);
+            motosikletler.get(motosikletSay).setModel(model);
+            motosikletler.get(motosikletSay).setUretimYili(uretimYili);
+            motosikletler.get(motosikletSay).setVitesTipi(vitesTipi);
+            motosikletler.get(motosikletSay).setRenk(renk);
+            motosikletler.get(motosikletSay).setMotorHacim(motorHacim);
+            motosikletler.get(motosikletSay).setMotorTip(motorTip);
+            motosikletler.get(motosikletSay).setFiyat(fiyat);
+            motosikletler.get(motosikletSay).setUserID(registerId);
+            motosikletSay++;
             ilanKayitId++;
             check = false;
             ilanlar.addAll(motosikletler);
@@ -168,20 +170,21 @@ public class IlanCreate extends Main{
         kredi = scanner.nextBoolean();
         System.out.println("Dairenizin Fiyatı: ");
         fiyat = scanner.nextInt();
-
+        
         daireler.add(new Daire());
-        daireler.get(ilanKayitId).setIlanID(ilanKayitId);
-        daireler.get(ilanKayitId).setBaslik(baslik);
-        daireler.get(ilanKayitId).setAciklama(aciklama);
-        daireler.get(ilanKayitId).setOdaSayisi(odaSayisi);
-        daireler.get(ilanKayitId).setIsitma(isitma);
-        daireler.get(ilanKayitId).setAdres(adres);
-        daireler.get(ilanKayitId).setMkare(mkare);
-        daireler.get(ilanKayitId).setBinaYas(binaYas);
-        daireler.get(ilanKayitId).setKatSayisi(katSayisi);
-        daireler.get(ilanKayitId).setAidat(aidat);
-        daireler.get(ilanKayitId).setKredi(kredi);
-        daireler.get(ilanKayitId).setFiyat(fiyat);
+        daireler.get(daireSay).setIlanID(ilanKayitId);
+        daireler.get(daireSay).setBaslik(baslik);
+        daireler.get(daireSay).setAciklama(aciklama);
+        daireler.get(daireSay).setOdaSayisi(odaSayisi);
+        daireler.get(daireSay).setIsitma(isitma);
+        daireler.get(daireSay).setAdres(adres);
+        daireler.get(daireSay).setMkare(mkare);
+        daireler.get(daireSay).setBinaYas(binaYas);
+        daireler.get(daireSay).setKatSayisi(katSayisi);
+        daireler.get(daireSay).setAidat(aidat);
+        daireler.get(daireSay).setKredi(kredi);
+        daireler.get(daireSay).setFiyat(fiyat);
+        daireSay++;
         ilanKayitId++;
         check = false;
         ilanlar.addAll(daireler);
@@ -219,14 +222,15 @@ public class IlanCreate extends Main{
             mkareFiyat = fiyat/mkare;
 
             arsalar.add(new Arsa());
-            arsalar.get(ilanKayitId).setIlanID(ilanKayitId);
-            arsalar.get(ilanKayitId).setBaslik(baslik);
-            arsalar.get(ilanKayitId).setAciklama(aciklama);
-            arsalar.get(ilanKayitId).setImarDurum(imarDurum);
-            arsalar.get(ilanKayitId).setMkare(mkare);
-            arsalar.get(ilanKayitId).setKredi(kredi);
-            arsalar.get(ilanKayitId).setFiyat(fiyat);
-            arsalar.get(ilanKayitId).setmKareFiyat(mkare,fiyat);
+            arsalar.get(arsaSay).setIlanID(ilanKayitId);
+            arsalar.get(arsaSay).setBaslik(baslik);
+            arsalar.get(arsaSay).setAciklama(aciklama);
+            arsalar.get(arsaSay).setImarDurum(imarDurum);
+            arsalar.get(arsaSay).setMkare(mkare);
+            arsalar.get(arsaSay).setKredi(kredi);
+            arsalar.get(arsaSay).setFiyat(fiyat);
+            arsalar.get(arsaSay).setmKareFiyat(mkare,fiyat);
+            arsaSay++;
             ilanKayitId++;
             check = false;
             ilanlar.addAll(arsalar);

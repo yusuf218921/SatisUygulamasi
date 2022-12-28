@@ -28,9 +28,9 @@ public class IlanList extends Static{
         {
             System.out.println("****** OTOMOBİL İLANLARI ******");
             System.out.println("\n\n\nİlan ID: "+otomobil.getIlanID());
-            System.out.println("İlan Başlık: "+otomobil.getBaslik());
-            System.out.println("İlan Açıklaması: " + otomobil.getAciklama());
-            System.out.println("İlan Fiyat: " + otomobil.getFiyat());
+            System.out.println("İlan Başlık: "+otomobil.baslik);
+            System.out.println("İlan Açıklaması: " + otomobil.aciklama);
+            System.out.println("İlan Fiyat: " + otomobil.fiyat);
         }
     }
     public void ListMotosiklet(){
