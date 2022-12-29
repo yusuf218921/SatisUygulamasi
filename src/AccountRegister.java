@@ -13,22 +13,27 @@ public class AccountRegister extends Main{
             if(new AccountCreate(username).registerCheck(accounts))
             {
                 System.out.println("** Bu Kullanıcı Adı Daha Önce Alınmış! **\n");
-                System.out.println("Kayıt İşlemine Devam Etmek İstiyor Musunuz? (Evet/Hayır)-> ");
-                String devam = scanner.next();
-                if (devam.equalsIgnoreCase("evet"))
-                {
-                    System.out.println("***Lütfen Kullanıcı Adınızı Tekrar Oluşturunuz...***");
+                while (true) {
+                    System.out.println("Kayıt İşlemine Devam Etmek İstiyor Musunuz? (Evet/Hayır)-> ");
+                    String devam = scanner.next();
+                    if (devam.equalsIgnoreCase("evet"))
+                    {
+                        System.out.println("***Lütfen Kullanıcı Adınızı Tekrar Oluşturunuz...***");
 
 
+                    }
+                    else if (devam.equalsIgnoreCase("hayır"))
+                    {
+                        System.out.println("Kayıt İşlemi İptal Ediliyor...");
+
+                        System.out.println("Ana Menüye Dönülüyor...\n\n");
+
+                        check = false;
+                    } else {
+                        System.out.println("Hatalı işlem girdiniz lütfen tekrar deneyiniz...");
+                    }
                 }
-                else if (devam.equalsIgnoreCase("hayır"))
-                {
-                    System.out.println("Kayıt İşlemi İptal Ediliyor...");
 
-                    System.out.println("Ana Menüye Dönülüyor...\n\n");
-
-                    check = false;
-                }
             }
             else
             {
@@ -59,6 +64,7 @@ public class AccountRegister extends Main{
                 users.get(registerId).setEmail(email);
                 users.get(registerId).setAdress(adress);
                 registerId++;
+                ilanlar.add(new Ilan());
 
             }
 

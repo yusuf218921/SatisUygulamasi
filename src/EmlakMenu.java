@@ -1,4 +1,4 @@
-
+import java.io.IOException;
 
 public class EmlakMenu extends IlanMenu implements Menu {
 
@@ -29,10 +29,24 @@ public class EmlakMenu extends IlanMenu implements Menu {
         switch (secim) {
             case 1:
                 new IlanCreate().daireCreate();
+                System.out.println("\n\n****** İLANINIZ YAYIMLANDI ****** ");
+                try {
+                    System.out.println("Devam etmek için ENTER tuşuna basınız...");
+                    System.in.read();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
                 secim = 3;
                 break;
             case 2:
                 new IlanCreate().arsaCreate();
+                System.out.println("\n\n****** İLANINIZ YAYIMLANDI ****** ");
+                try {
+                    System.out.println("Devam etmek için ENTER tuşuna basınız...");
+                    System.in.read();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
                 secim = 3;
                 break;
         }
