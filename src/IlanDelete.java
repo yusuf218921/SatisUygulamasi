@@ -21,7 +21,7 @@ public class IlanDelete extends Main {
         }
         for (Ilan ilan:ilanlar)
         {
-            if(ilan.getIlanID()==secim && ilan.getUserID()==registerId)
+            if(ilan.getIlanID()==secim && ilan.getUserID()==loginId)
             {
                 ilanlar.remove(secim-1);
             }

@@ -20,10 +20,10 @@ public class Static {
     static boolean UserLogin = false;
     static Menu menu;
 
-    int daireSay = 0;
-    int otomobilSay=0;
-    int motosikletSay = 0;
-    int arsaSay=0;
+    static int daireSay = 0;
+    static int otomobilSay=0;
+    static int motosikletSay = 0;
+    static int arsaSay=0;
 
 
 }
