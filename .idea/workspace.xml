@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="backUP">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccountCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccountCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccountLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccountLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccountRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccountRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arsa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Daire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Daire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Emlak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Emlak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ilan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ilan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IlanCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IlanDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IlanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IlanListMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanListMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IlanQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IlanQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Motosiklet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Motosiklet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Otomobil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Otomobil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vasita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vasita.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1b30488-fba8-4565-8a12-fc333530231a" name="Changes" comment="çoğu hata düzeltildi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672344759945</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="çoğu hata düzeltildi">
+      <created>1672349587227</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672349587227</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +172,8 @@
     <MESSAGE value="İlan Gösterme Fonksiyonu Tüm Kategorilere Eklendi. İlan Ekleme Kısmı Tüm kategorilere eklendi.&#10;Eksik Olan Classlar oluşturuldu." />
     <MESSAGE value="otomobilSay vs eklendi hatalar var düzeltilecek" />
     <MESSAGE value="backUP" />
-    <option name="LAST_COMMIT_MESSAGE" value="backUP" />
+    <MESSAGE value="çoğu hata düzeltildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="çoğu hata düzeltildi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
